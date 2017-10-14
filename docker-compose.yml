@@ -23,10 +23,6 @@ services:
         restart: always
 
     php:
-#        build:
-#          context: ./
-#          args:
-#            WORK_DIR: /var/wwww/dev
         image: docker.io/codereviewvideos/symfony.dev
         hostname: php
         volumes:
@@ -38,3 +34,9 @@ services:
           - "./.env"
         depends_on:
           - db
+
+    redis:
+        image: redis:4.0.2
+        hostname: redis
+        volumes:
+          - "./volumes/redis:/data"
