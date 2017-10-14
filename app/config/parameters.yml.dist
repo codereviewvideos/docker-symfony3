@@ -16,3 +16,6 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            '%env(SECRET_KEY)%'
+
+    redis.host: '%env(REDIS_HOST)%'
+    redis.port: '%env(REDIS_PORT)%'
