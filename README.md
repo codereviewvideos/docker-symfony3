@@ -1,4 +1,3 @@
-docker-symfony-example
-======================
+# Docker with Symfony, nginx, and MySQL
 
-A Symfony project created on October 9, 2017, 12:49 pm.
+A starting point for Symfony examples from https://codereviewvideos.com/
