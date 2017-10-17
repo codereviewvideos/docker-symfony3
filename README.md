@@ -1,3 +1,3 @@
-# Docker with Symfony, nginx, and MySQL
+# Redis with Symfony 3
 
-A starting point for Symfony examples from https://codereviewvideos.com/
+An example of using Redis for caching in a Symfony 3 application, from https://codereviewvideos.com/
