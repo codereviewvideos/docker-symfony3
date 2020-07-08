@@ -30,7 +30,7 @@ class CacheExample
             // $expensiveValue = $this->injectedApiService->get("some-url/etc");
             $expensiveValue = rand(1,100);
 
-            $cachedItem->set($cacheKey, $expensiveValue);
+            $cachedItem->set($expensiveValue);
             $this->cache->save($cachedItem);
         }
 
